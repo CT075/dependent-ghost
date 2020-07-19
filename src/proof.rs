@@ -1,3 +1,4 @@
+/// Encode proofs of properties
 use std::marker::PhantomData;
 
 /// A value of type `Proof<P>` for some type-encoded property `P` is a proof

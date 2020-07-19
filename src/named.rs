@@ -1,3 +1,4 @@
+/// To annotate values with type-level names
 use std::marker::PhantomData;
 
 struct _Named<Name, A> {
