@@ -1,7 +1,7 @@
 use std::cmp::Ordering;
 use std::marker::PhantomData;
 
-use gdp::named::{name, Named};
+use dependent_ghost::named::{name, Named};
 
 pub struct SortedBy<Comp, A> {
     value: A,
